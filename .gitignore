@@ -1,0 +1,6 @@
+# dependencies
+/node_modules
+/.cash
+
+# Optional npm cache directory
+.npm
