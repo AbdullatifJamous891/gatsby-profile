@@ -1,0 +1,38 @@
+.home_header{
+    background-image: url(../../assets/images/hero.jpeg);
+    background-color: #999;
+    background-blend-mode: multiply;
+    padding: 10rem 0;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.el_button {
+    display: inline-block;
+    line-height: 1;
+    white-space: nowrap;
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(220, 223, 230);
+    color: rgb(96, 98, 102);
+    appearance: none;
+    text-align: center;
+    box-sizing: border-box;
+    outline: 0px;
+    margin: 0px;
+    transition: all 0.1s ease 0s;
+    font-weight: 500;
+    padding: 12px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: rgb(83, 119, 166);
+    border-color: rgb(83, 119, 166);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.el_button:hover{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    background-color: rgb(98, 132, 177);
+    border-color: rgb(83, 119, 166);
+}
