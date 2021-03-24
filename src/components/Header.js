@@ -4,8 +4,8 @@ import Bar from "./Bar";
 const Header = () => {
     return (
         <div>
-            <div>Abdullatif Jamous</div>
-            <Bar></Bar>
+            <div style={{display:'inline-block', marginTop: '20px'}}>Abdullatif Jamous</div>
+            <Bar style={{display:'inline-block', marginRight:'10px'}}></Bar>
         </div>
     )
 }
