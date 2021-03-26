@@ -1,6 +1,6 @@
 # dependencies
 /node_modules
-/.cashe
+/.cache
 
 # Optional npm cache directory
 .npm

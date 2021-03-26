@@ -4778,24 +4778,24 @@ if (false) {} else {
 /***/ }),
 
 /***/ "react-dom/server":
-/*!*****************************************************************************************************!*\
-  !*** external "C:\\Users\\kenan afey\\Desktop\\gatsby-profile\\node_modules\\react-dom\\server.js" ***!
-  \*****************************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** external "/home/abdullatif/Desktop/gatsby-profile/node_modules/react-dom/server.js" ***!
+  \*******************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("C:\\Users\\kenan afey\\Desktop\\gatsby-profile\\node_modules\\react-dom\\server.js");;
+module.exports = require("/home/abdullatif/Desktop/gatsby-profile/node_modules/react-dom/server.js");;
 
 /***/ }),
 
 /***/ "react":
-/*!************************************************************************************************!*\
-  !*** external "C:\\Users\\kenan afey\\Desktop\\gatsby-profile\\node_modules\\react\\index.js" ***!
-  \************************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** external "/home/abdullatif/Desktop/gatsby-profile/node_modules/react/index.js" ***!
+  \**************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("C:\\Users\\kenan afey\\Desktop\\gatsby-profile\\node_modules\\react\\index.js");;
+module.exports = require("/home/abdullatif/Desktop/gatsby-profile/node_modules/react/index.js");;
 
 /***/ })
 

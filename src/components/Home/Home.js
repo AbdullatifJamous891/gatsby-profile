@@ -1,5 +1,5 @@
 import React from "react";
-import * as homeStyles from "./home.module.scss";
+import * as homeStyles from "./Home.module.scss";
 
 const Home = ()=> {
   return (
