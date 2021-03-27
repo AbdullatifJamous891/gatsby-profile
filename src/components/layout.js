@@ -1,11 +1,18 @@
 import React from "react";
-import Header from './Header';
+import Bar from './Bar/Bar';
 import Home from './Home/Home';
 const Layout = ()=> {
+  const identificationCard = {
+    heroName: "Abdullatif Jamous",
+    jobTitle: "Full Stack Software Engineer"
+  }
   return (
       <div>
-          <Header />
-          <Home />
+          <Bar
+            heroName={identificationCard.heroName} />
+          <Home 
+            heroName={identificationCard.heroName} 
+            jobTitle={identificationCard.jobTitle} />
       </div>
   )
 }

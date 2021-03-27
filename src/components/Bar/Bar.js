@@ -1,11 +1,13 @@
 import React from "react";
 import * as BarStyles from "./Bar.module.scss";
 import { Link } from "gatsby";
-const Bar = () => {
+
+const Bar = (props) => {
     return (
-        <div className={`d-flex`}>
+        <div className={BarStyles.navbar}> 
+            <div className={BarStyles.logo}>{props.heroName}</div>
             <ul>
-                <li><Link to="#home" className={BarStyles.active}>Home</Link></li>
+                <li><Link to="#home">Home</Link></li>
                 <li><Link to="#projects">Projects</Link></li>
             </ul>
         </div>
@@ -13,3 +15,4 @@ const Bar = () => {
 }
 
 export default Bar;
+
