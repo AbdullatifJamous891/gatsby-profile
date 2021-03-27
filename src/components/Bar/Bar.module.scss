@@ -1,27 +1,50 @@
-ul {
-    width:750px;
-    margin:0 auto;
-    list-style:none;
-    
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.logo{
+    font-family: 'Averia Serif Libre', cursive;
+    font-size: 30px;
+    // width: 120px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
     text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #111;
-  }
-  
-  .active {
-    text-decoration: underline;
-    text-decoration-style: bold;
-    text-decoration-color: red;
-  }
+    text-transform: uppercase;
+    color: #000;
+    opacity: 0.5;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom:-10px;
+    transition: 0.3s;
+}
+
+.navbar ul li a:a:visited {
+    opacity: 0.9;
+}
+
+.navbar ul li:hover::after{
+    width: 105%;
+}
+
